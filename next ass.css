@@ -1,0 +1,72 @@
+body{
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+main{
+    display: flex;
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+main >section:first-of-type{
+    background-image: linear-gradient(to bottom,
+hsl(252, 100%, 67%),
+hsl(241, 81%, 54%),
+);
+text-align: center;
+color: white;
+background-color: hsl(221, 100%, 96%);
+border-radius: 25px;  
+}
+main >section:last-of-type{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.container{
+background-color: navy;
+    justify-content: center;
+    align-items: center;
+   display: flex;
+}
+.circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(10, 10, 177);
+}
+    
+          .rectangular{
+            width: 210px;
+            height: 35px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 5px;
+          }
+      button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        width: 210px;
+        height: 35px;
+        border: none;
+        margin-top: 30px;
+        }
+        .item p{
+            display: inline-block;
+          margin-top: 5px;
+        margin-bottom: 5px;
+        }
+        .weather{
+           text-align: left;
+           width: 50%;
+    
+        }
+        .report{
+              text-align: right;
+              width: 50%;
+        }
+        

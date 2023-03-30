@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Media/embedding: Task 1</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      audio {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Basic audio embed</h1>
+    
+    <audio controls>
+<source src="media/html_multimedia-and-embedding_tasks_media-embed_media_audio.mp3" type="audio/mp3"/>
+<p>Download <a href="media/html_multimedia-and-embedding_tasks_media-embed_media_audio.mp3"></a></p>
+    </audio>
+    <h1>Basic video embed</h1>
+    <video controls width="400px" height="360px" style="margin: auto;" muted>
+        <source src="media/video.mp4" type="video/mp4">
+        <source src="media/html_multimedia-and-embedding_tasks_media-embed_media_video.webm" type="video/webm">
+        <track kind="subtitles" src="media/subtitles_en.vtt" srclang="en" label="English"/>
+
+    </video>
+    <h1>Embedded pdf</h1>
+    <object data="media/mypdf.pdf" width="350px" height="250px"></object>
+
+    <h1>Video Embed here</h1>
+    <iframe width="450" height="350" src="https://www.youtube.com/embed/rrwvr5DlEUM" title="Simi - Smile For Me - Official Video Song 2017" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+
+</html>

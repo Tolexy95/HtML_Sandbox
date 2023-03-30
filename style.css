@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+body{
+background-color: #a9a9a9;
+padding-left: 250px;
+padding-right: 250px;
+}
+
+header{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 1px 7px rgba(0, 0, 0, 0.84);
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Berkshire Swash', cursive;
+}
+nav{
+    background-color: #ff80ff;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 50px;
+}
+nav>input{
+    font-size: 10px;
+    height: 18px;
+    width: 150px;
+    border: none;
+    padding: 0px;
+    padding-left: 5px;
+}
+nav>button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 18px;
+    width: 50px;
+    font-size: 10px;
+}
+main{
+    display: flex;
+    padding-top: 5px;
+
+}
+section{
+    background-color: white;
+    width: 70%;
+    padding-left: 8px;
+      
+}
+aside{
+    background-color: #ff80ff;
+    margin-left: 5px;
+    width: 30%;
+
+}
+h2{
+    text-align: center;
+}
+h3{
+    padding-left: 5px;
+}
+footer{
+    background-color: white;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    margin-top: 8px;
+}
+p{
+    text-align: justify;
+}
+aside>ul>li{
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+
